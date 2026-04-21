@@ -23,5 +23,6 @@ IPTV Simple 在播放每个频道前默认会对流地址发起探测请求（St
 
 ## 注意
 
+- avdvplus编译的CE从R7开始inputstream.ffmpegdirect插件都处于不可用状态，如使用该固件，请在设置-高级-输入流名称中删除inputstream.ffmpegdirect后点确定，否则会导致全部电视都无法播放  
 - 如遇个别频道播放异常，可运行插件选择 **清除设置** 恢复
 - 若 m3u8 频道已通过 `#KODIPROP:inputstream=...`  `#KODIPROP:mimetype==...`指定输入流，频道的设置优先，本插件写入的客户端设置对其无效
