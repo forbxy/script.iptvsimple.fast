@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.iptvsimple.fast"
+       name="IPTV Simple Fast Play"
+       version="1.0.0"
+       provider-name="forbxy">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script"
+               library="default.py">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="zh_CN">一键为 IPTV Simple Client 配置 ffmpegdirect 直接播放</summary>
+        <description lang="zh_CN">自动为 IPTV Simple Client 写入设置-高级 [CR]输入流名称=inputstream.ffmpegdirect[CR]MIME类型=application/vnd.apple.mpegurl[CR]设置后可跳过流类型探测直接播放，切台速度更快。[CR]但也可能有兼容性问题(小概率)，如有问题执行清除设置即可</description>
+        <platform>all</platform>
+    </extension>
+</addon>
